@@ -22,6 +22,8 @@ Then you can build this package
     $ cd ws/src
     $ git clone https://github.com/omarosamahu/ORB_SLAM3-ros2.git
 Change this path in cmake /home/conti/ORB_SLAM3/Examples/ROS/ORB_SLAM3 to your ORB_SLAM3 dir 
+    
+    
     $ cd ..
     $ colcon build
 
