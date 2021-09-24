@@ -32,7 +32,7 @@ Change this path in cmake /home/conti/ORB_SLAM3/Examples/ROS/ORB_SLAM3 to your O
 
 Add these two lines in your .bashrc in your home directory 
     $ source ws/install/setup.sh
-    $ export LD_LIBRARY_PATH=~/Pangolin/build/src/:~/ORB_SLAM3/Thirdparty/DBoW2/lib:~/ORB_SLAM3/Thirdparty/g2o/lib:~/ORB_SLAM3/lib:$LD_LIBRARY_PATH
+    $ export LD_LIBRARY_PATH=PATH_TO_PANGOLIN/build/src/:PATH_TO_ORB_SLAM3/Thirdparty/DBoW2/lib:PATH_TO_ORB_SLAM3/Thirdparty/g2o/lib:PATH_TO_ORB_SLAM3/lib:$LD_LIBRARY_PATH
 
 
 ### Usage
