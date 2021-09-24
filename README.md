@@ -44,8 +44,11 @@ Download Euroc Dataset bag from this link https://projects.asl.ethz.ch/datasets/
 Note:
 You should install ros noetic first before run the command
 run this command
+    
     $ sudo apt-get install ros-foxy-ros1-bridge  ros-foxy-rosbag2-storage-default-plugins ros-foxy-ros2bag
+
 Run the bag 
+    
     $ ros2 bag play -s rosbag_v2 MH_05_difficult.bag
 
 You can find the vocabulary file in the ORB_SLAM3 repository (e.g. `ORB_SLAM3/Vocabulary/ORBvoc.txt`)
