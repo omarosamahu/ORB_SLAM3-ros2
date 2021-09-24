@@ -39,11 +39,18 @@ Add these two lines in your .bashrc in your home directory
 
 ### Usage
 
-Run the monocular SLAM node
+Download Euroc Dataset bag from this link https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets and choose choose Machine Hall 05
 
-    $ ros2 run orb_wrapper mono PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE
+Note:
+You should install ros noetic first before run the command
+run this command
+    $ sudo apt-get install ros-foxy-ros1-bridge  ros-foxy-rosbag2-storage-default-plugins ros-foxy-ros2bag
+Run the bag 
+    $ ros2 bag play -s rosbag_v2 MH_05_difficult.bag
 
 You can find the vocabulary file in the ORB_SLAM3 repository (e.g. `ORB_SLAM3/Vocabulary/ORBvoc.txt`)
+
+You can find the euroc config file in the ORB_SLAM3 repository (e.g. `ORB_SLAM3/Stereo/EuRoC.yaml`)
 
 You can run the `stereo` node by using 
 
